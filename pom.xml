@@ -17,7 +17,7 @@
         <junit.version>5.3.1</junit.version>
         <spring.boot.version>2.0.6.RELEASE</spring.boot.version>
         <spring.boot.starter.celesta.version>2.0.1</spring.boot.starter.celesta.version>
-        <celesta.version>7.0.9</celesta.version>
+        <celesta.version>7.0.14</celesta.version>
         <!-- plugins -->
         <maven-compiller-plugin.version>3.7.0</maven-compiller-plugin.version>
         <maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>

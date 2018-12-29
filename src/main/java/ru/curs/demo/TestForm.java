@@ -7,11 +7,19 @@ import ru.curs.lyra.LyraFormField;
 import ru.curs.lyra.LyraFormProperties;
 import ru.curs.lyra.LyraNamedElementHolder;
 
+//@Form(header="sdfsadf")
 public class TestForm extends BasicGridForm {
 
     public TestForm(CallContext c){
         super(c);
         createAllBoundFields();
+
+
+    }
+
+   // @FormField(caption = "asadasf", width="asdfasdf")
+    public String getFoo(CallContext ctx){
+        return "foo";
     }
 
     @Override
